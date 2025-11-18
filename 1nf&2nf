@@ -1,3 +1,40 @@
+create table stud(studentid int,name varchar(10),phone varchar(10));
+insert into stud values(101,'Ravi','98765');
+insert into stud values(101,'Ravi','87654');
+insert into stud values(102,'Anita','99900');
+insert into stud values(103,'John','88888');
+insert into stud values(103,'John','77777');
+insert into stud values(103,'John','66666');
+select * from stud;
+ 
+ 
+create table prod(oid int,cust varchar(10),items varchar(10));
+insert into prod values(01,'Raj','Pen');
+insert into prod values(01,'Raj','Pencil');
+insert into prod values(02,'Sam','Notebook');
+insert into prod values(03,'Raj','Eraser');
+insert into prod values(03,'Raj','Eraser');
+insert into prod values(03,'Raj','Eraser');
+select * from prod;
+
+create table Employee(EmpID numeric, EmpName varchar(50), Skills varchar(50));
+insert into Employee values(1,'Ramesh','Java');
+insert into Employee values(1,'Ramesh','Python');
+insert into Employee values(2,'Anita','Excel');
+insert into Employee values(3,'John','Java');
+insert into Employee values(3,'John','C++');
+insert into Employee values(3,'John','HTML');
+select * from Employee;
+
+
+create table addrs(custid int,name varchar(10),loca varchar(10));
+insert into addrs values(1,'Meera','Hyderabad');
+insert into addrs values(1,'Meera','Telangana');
+insert into addrs values(1,'Meera','India');
+insert into addrs values(2,'Ajay','Pune');
+insert into addrs values(2,'Ajay','Maharastra');
+insert into addrs values(2,'Ajay','India');
+select * from addrs;
 -- q5
 
 create table students (
